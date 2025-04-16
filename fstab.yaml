@@ -1,5 +1,11 @@
+# The default is for AEM UE. Make sure to change the URL to your AEM instance and GitHub repository.
 mountpoints:
-  /:
-    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
-    type: "markup"
-    suffix: ".html"
+   /:
+     url: "https://localhost:8443/bin/franklin.delivery/gtozzienel/SEN/main"
+     type: "markup"
+     suffix: ".html"
+
+# Use the following for Doc-based authoring. Make sure to change it to your SharePoint or Google Drive url.
+#mountpoints:
+# /: https://adobe.sharepoint.com/:w:/r/sites/CitiSignal/Shared%20Documents/CitiSignal-Storefront
+
